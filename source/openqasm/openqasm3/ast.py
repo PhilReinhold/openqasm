@@ -780,7 +780,7 @@ class ArrayType(ClassicalType):
     """
 
     base_type: Union[
-        IntType, UintType, FloatType, AngleType, DurationType, BitType, BoolType, ComplexType
+        IntType, UintType, FloatType, AngleType, DurationType, BitType, BoolType, ComplexType, DruationType
     ]
     dimensions: List[Expression]
 
